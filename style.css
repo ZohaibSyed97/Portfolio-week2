@@ -1,0 +1,29 @@
+* {
+  margin: 0%;
+}
+.profilePicture {
+  width: 20%;
+  padding-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+figcaption {
+  width: 20%;
+  padding-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.devName {
+  width: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: block;
+  background-color: 204, 252, 233;
+}
+.container {
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgb(212, 255, 235);
+}
