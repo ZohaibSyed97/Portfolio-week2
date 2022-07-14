@@ -1,29 +1,111 @@
 * {
   margin: 0%;
 }
-.profilePicture {
-  width: 20%;
-  padding-top: 2%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+/* header dic container style */
+.container {
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgb(212, 255, 235);
+  /* header dic container style END */
 }
-figcaption {
-  width: 20%;
-  padding-bottom: 2%;
-  margin-left: auto;
-  margin-right: auto;
+/* nav bar css */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(121, 232, 181);
 }
+/* nav bar css END */
 
+/* nav bar list css */
+li {
+  float: left; /* my nav bar kept moving to the centre because of the paddings and margins a was adding so I copied this code form W3school.com to move the link buttons to the left as this is how I preferred  */
+  list-style-type: none; /* this line of code removes the small dots on the list which were placed before each page's name on the nac bar */
+  display: inline;
+  padding: 1%;
+  border-right: 2px solid white; /* this line of code add a white 2px border on the right side of the link buttons on the nav bar to make it clear that they are separate buttons*/
+}
+/* nav bar list css END */
+
+/* nav abr list anchor tag css */
+li a {
+  color: black; /* nav bar links text color */
+}
+/* nav abr list anchor tag css END */
+
+/* Title developer name style */
 .devName {
   width: 50%;
   margin-left: 1%;
   margin-right: 1%;
   display: block;
   background-color: 204, 252, 233;
+  /* Title developer name style */
 }
-.container {
-  width: 100%;
-  padding: 10px 0;
-  background-color: rgb(212, 255, 235);
+/* profile picture style for home page */
+.profilePicture {
+  width: 20%;
+  padding-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /* profile picture style END */
+}
+
+/* profile picture style for other pages */
+#profilePic {
+  width: 10%;
+  padding-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: block;
+  /* profile picture style END*/
+}
+
+/* profile picture caption text style for home page*/
+figcaption {
+  width: 20%;
+  padding-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  /* profile picture caption text style for home page END*/
+}
+
+/* profile picture caption text style for other pages*/
+#figcaption {
+  width: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: block;
+  /* profile picture caption text style for other pages END*/
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+/* about me Article div element style text */
+article h3,
+p {
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  /* about me Article div element style text */
 }
